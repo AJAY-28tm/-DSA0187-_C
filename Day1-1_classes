@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+
+class MyClass {    // The class
+public:             // Access specifier
+    int num;      // Attribute (int variable)
+    std::string string;  // Attribute (string variable)
+};
+
+int main() {
+    MyClass obj;  // Create an object of MyClass
+
+    // Access attributes and set values
+    obj.num = 15; 
+    obj.string = "Welcome to Saveetha School of Engineering";
+
+    // Print attribute values
+    std::cout << obj.num << "\n";
+    std::cout << obj.string;
+
+    return 0;
+}
